@@ -1,0 +1,80 @@
+.content {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.content.one {
+  background-image: url(../media/tesla1.jpg);
+}
+
+.content.two {
+  background-image: url(../media/tesla2.jpg);
+}
+
+.content.three {
+  background-image: url(../media/tesla3.jpg);
+}
+.content.four {
+  background-image: url(../media/tesla4.jpg);
+}
+.content.five {
+  background-image: url(../media/tesla5.jpg);
+}
+.content.six {
+  background-image: url(../media/tesla6.jpg);
+}
+.content--title {
+  position: absolute;
+  top: 16%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  text-transform: capitalize;
+}
+.content--title--text {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  font-family: var(--font-family);
+  line-height: 48px;
+  letter-spacing: -0.6px;
+}
+.content--title--subtitle {
+  color: var(--black-color);
+  text-decoration: none;
+  box-shadow: 0 1px 0 0 currentColor;
+  font-size: 14px;
+}
+.content--title--subtitle:hover {
+  box-shadow: 0 2px 0 0 currentColor;
+}
+.content--action--container {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 552px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.content--action-btn {
+  text-decoration: none;
+  width: 264px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+}
+.action--btn--primary {
+  background-color: #2d2d2f;
+  color: #ffffff;
+}
+
+.action--btn--secondary {
+  background-color: #f4f4f4a6;
+  color: #2a2b2d;
+}

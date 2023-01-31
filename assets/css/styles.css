@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  --font-family: "M PLUS 1", sans-serif;
+
+  scroll-behavior: smooth;
+  --black-color: #171a20;
+}
+
+@media (max-width: 768px) {
+  .header--nav--btn {
+    display: none;
+  }
+  .nav--middle {
+    display: none;
+  }
+  .header--nav--btn.menu--btn {
+    display: flex;
+    width: 80px;
+    height: 40px;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .content--action--container {
+    flex-wrap: wrap;
+  }
+  .content--action-btn {
+    display: block;
+    width: 400px;
+  }
+}

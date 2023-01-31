@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>テスラ</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/content.css" />
+    <link rel="stylesheet" href="./assets//css/header.css" />
+    <link rel="stylesheet" href="./assets/css/navigation.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/media/tesla-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="main">
+      <div id="header">
+        <a href="#" class="nav--left">
+          <svg
+            class="logo"
+            viewBox="0 0 342 35"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zM308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </a>
+        <div class="nav--middle">
+          <a href="" class="moveToModelS">Model S</a>
+          <a href="" class="moveToModel3">Model 3</a>
+          <a href="" class="moveToModelX">Model X</a>
+          <a href="" class="moveToModelY">Model Y</a>
+          <a href="">Cybertruck</a>
+          <a href="">Powerwall</a>
+        </div>
+        <div class="nav--right">
+          <a href="#" class="header--nav--btn">ショップ</a>
+          <a href="#" class="header--nav--btn">アカウント</a>
+          <a class="header--nav--btn menu--btn" onclick="toggleMenu()"
+            >メニュー</a
+          >
+        </div>
+      </div>
+      <nav id="menu--navigation">
+        <div class="close--btn-container">
+          <svg
+            class="navigation--close--btn"
+            2
+            onclick="toggleMenu()"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18.53 17.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.748.748 0 0 1-1.06 0 .75.75 0 0 1 0-1.06L10.94 12 5.47 6.53a.75.75 0 1 1 1.06-1.06L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </div>
+        <ul class="nav--link--container">
+          <li><a href="#" class="nav--link"></a>在庫</li>
+          <li><a href="#" class="nav--link"></a>認定中古車</li>
+          <li><a href="#" class="nav--link"></a>下取り</li>
+          <li><a href="#" class="nav--link"></a>試乗を予約する</li>
+          <li><a href="#" class="nav--link"></a>Roadster</li>
+          <li>
+            <a href="#" class="nav--link"></a>商業・産業用エネルギーシステム
+          </li>
+          <li>
+            <a href="#" class="nav--link"></a>電力系統用　エネルギーシステム
+          </li>
+          <li><a href="#" class="nav--link"></a>Energy</li>
+          <li><a href="#" class="nav--link"></a>コーポレートセールス</li>
+          <li><a href="#" class="nav--link"></a>充電</li>
+          <li><a href="#" class="nav--link"></a>アクセス</li>
+          <li><a href="#" class="nav--link"></a>展示・試乗イベント</li>
+          <li><a href="#" class="nav--link"></a>サポート</li>
+          <li><a href="#" class="nav--link"></a>投資家情報</li>
+          <li><a href="#" class="nav--link"></a>ショップ</li>
+          <li><a href="#" class="nav--link"></a>アカウント</li>
+          <li><a href="#" class="nav--link"></a>その他</li>
+        </ul>
+      </nav>
+      <div id="container">
+        <div class="content one">
+          <div class="content--title">
+            <h1 class="content--title--text">Model Y</h1>
+            <a
+              class="content--title--subtitle"
+              href="https://www.tesla.com/ja_jp/japanevents"
+            >
+              テスラの試乗およびイベント情報はこちら
+            </a>
+          </div>
+          <div class="content--action--container">
+            <a href="#" class="content--action-btn action--btn--primary"
+              >デザイナする</a
+            >
+            <a href="#" class="content--action-btn action--btn--secondary"
+              >試乗予約</a
+            >
+          </div>
+        </div>
+        <div class="content two">
+          <div class="content--title">
+            <h1 class="content--title--text">Model 3</h1>
+            <a
+              class="content--title--subtitle"
+              href="https://www.tesla.com/ja_jp/japanevents"
+            >
+              テスラの試乗およびイベント情報はこちら
+            </a>
+          </div>
+          <div class="content--action--container">
+            <a href="#" class="content--action-btn action--btn--primary"
+              >デザイナする</a
+            >
+            <a href="#" class="content--action-btn action--btn--secondary"
+              >試乗予約</a
+            >
+          </div>
+        </div>
+        <div class="content three">
+          <div class="content--title">
+            <h1 class="content--title--text">Solar and Powerwall</h1>
+            <h3 class="content--three-subtitle">Power Everything</h3>
+          </div>
+          <div class="content--action--container">
+            <a href="#" class="content--action-btn action--btn--primary"
+              >詳しく見る</a
+            >
+          </div>
+        </div>
+        <div class="content four">
+          <div class="content--title">
+            <h1 class="content--title--text">Model S</h1>
+          </div>
+          <div class="content--action--container">
+            <a href="#" class="content--action-btn action--btn--primary"
+              >デザイナする</a
+            >
+            <a href="#" class="content--action-btn action--btn--secondary"
+              >試乗予約</a
+            >
+          </div>
+        </div>
+        <div class="content five">
+          <div class="content--title">
+            <h1 class="content--title--text">Model X</h1>
+          </div>
+          <div class="content--action--container">
+            <a href="#" class="content--action-btn action--btn--primary"
+              >デザイナする</a
+            >
+            <a href="#" class="content--action-btn action--btn--secondary"
+              >試乗予約</a
+            >
+          </div>
+        </div>
+        <div class="content six">
+          <div class="content--title">
+            <h1 class="content--title--text">アクセサリー</h1>
+          </div>
+          <div class="content--action--container">
+            <a href="#" class="content--action-btn action--btn--primary"
+              >今すぐ購入</a
+            >
+          </div>
+        </div>
+      </div>
+      <div id="footer"></div>
+    </div>
+  </body>
+  <script src="./assets/js/index.js"></script>
+</html>
