@@ -1,0 +1,19 @@
+.footer--container {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  max-width: 100%;
+}
+.footer--container li {
+  line-height: 70px;
+}
+.footer--content {
+  display: block;
+  margin-right: 14px;
+  font-size: 12px;
+  text-align: center;
+  font-family: var(--font-family);
+  color: #5c5e62;
+  font-weight: 500;
+}
